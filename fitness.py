@@ -1,20 +1,10 @@
-
 class Fitness:
 
-    def __init__(self, password, test_word):
-        self.__password = password
-        self.__test_word = test_word
+    def __init__(self):
+        self.__password = "password"
+        self.__test_word = "test_word"
 
-    @property
-    def password(self):
-        return self.__password
-
-    @property
-    def test_word(self):
-        return self.__test_word
-
-    def score (password, test_word):
-        ''' Calculates the fitness score (number of characters correct / total number of characters) '''
+    def fitness(self, password, test_word):
         if (len(test_word) != len(password)):
             print("Taille Incompatible")
             return
