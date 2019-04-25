@@ -1,5 +1,5 @@
 
-class Fitness(object):
+class Fitness:
 
     def __init__(self, password, test_word):
         self.__password = password

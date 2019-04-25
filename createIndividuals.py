@@ -1,20 +1,19 @@
 import random
 
-class Individuals(object):
+class Individuals:
 
     def __init__(self, sizePopulation, password):
         self.__sizePopulation = sizePopulation
         self.__password = password
 
-    @property
-    def sizePopulation(self):
-        return self.__sizePopulation
-
-    @property
-    def password(self):
-        return self.__password
-
-
+    def generateWord(length):
+        i = 0
+        result = ""
+        while i < length:
+            letter = chr(97 + int(26 * random.random()))
+            result += letter
+            i +=1
+        return result
 
     def generateFirstPopulation(sizePopulation, password):
         ''' Generates the first population with input size and password '''
