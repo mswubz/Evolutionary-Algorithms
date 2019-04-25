@@ -8,7 +8,8 @@ import random
 
 password = "password"
 size_Population = 1
-Individuals = Individuals(size_Population, password)
+length = 1
+Individuals = Individuals(size_Population, password, length)
 
 print("Welcome to the Knapsack Problem")
 
