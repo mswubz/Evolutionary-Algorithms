@@ -28,10 +28,17 @@ print("The first population is: ")
 first_population = Individuals.generateFirstPopulation(size_Population, password)
 print(first_population)
 
+print("What chance of mutation?")
+chance_of_mutation = int(input())
+
+Mutation = Mutation(first_population, chance_of_mutation)
+
+population = Mutation.mutatePopulation(first_population, chance_of_mutation)
+
+print("The new population is: ")
+print(population)
+
 #Fitness = Fitness()
 #Breeders = Breeders()
 #Reproduction = Reproduction()
 #Mutation = Mutation()
-
-
-
