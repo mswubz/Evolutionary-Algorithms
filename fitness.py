@@ -1,8 +1,8 @@
 class Fitness:
 
-    def __init__(self):
-        self.__password = "password"
-        self.__test_word = "test_word"
+    def __init__(self, password, test_word):
+        self.__password = password
+        self.__test_word = test_word
 
     def fitness(self, password, test_word):
         if (len(test_word) != len(password)):

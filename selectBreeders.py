@@ -1,4 +1,3 @@
-from fitness import Fitness
 
 import random
 import operator
@@ -11,13 +10,24 @@ class Breeders:
         self.__populationSorted = []
         self.__best_sample = best_sample
         self.__lucky_few = lucky_few
-
-    Fitness = Fitness()
+    
+    def fitness(self, password, test_word):
+        if (len(test_word) != len(password)):
+            print("Taille Incompatible")
+            return
+        else:
+            score = 0
+            i = 0
+            while (i < len(password)):
+                if (password[i] == test_word[i]):
+                    score += 1
+                i += 1
+            return score * 100 / len(password)
     
     def computePerfPopulation(self, population, password):
         populationPerf = {}
         for individual in population:
-            populationPerf[individual] = Fitness.fitness(password, individual)
+            populationPerf[individual] = self.fitness(password, individual)
         return sorted(populationPerf.items(), key=operator.itemgetter(1), reverse=True)
 
 
