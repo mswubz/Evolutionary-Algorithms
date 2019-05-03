@@ -67,8 +67,12 @@ lucky_few = int(input())
 
 Breeders = Breeders(population, password, best_sample, lucky_few)
 
+print("The next generation is: ")
 print(Breeders.selectFromPopulation(Breeders.computePerfPopulation(population, password), best_sample, lucky_few))
 
+print("Time for reproduction...")
+
+Reproduction = Reproduction()  /// TODO
 print("What chance of mutation?")
 chance_of_mutation = int(input())
 
@@ -79,6 +83,6 @@ population = Mutation.mutatePopulation(population, chance_of_mutation)
 print("The new population is: ")
 print(population)
 
+
 #Fitness = Fitness()
 #Reproduction = Reproduction()
-#Mutation = Mutation()
