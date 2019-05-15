@@ -2,9 +2,11 @@ import random as r
 import csv
 
 class Gene:
-    def __init__(self, v, w):
-        self.fitness = v # Genes's fitness. You want to maximize that!
-        self.weight = w # Genes's weight. The sum of all genes should be <= CAPACITY
+    """This class represents a template for all genes. Every gene has a fitness and weight value. The fitness value determines how adept the gene is in surviving
+    its environment. The weight value determines how much environmental carrying capacity (the space of the knapsack) that the gene takes up."""
+    def __init__(self, fitness, weight):
+        self.fitness = fitness
+        self.weight = weight 
 
 GENES = [Gene(r.randint(0,30),r.randint(0,30)) for x in range (0,30)]
 #This variable randomly creates between 0 and 30 genes. Their fitness score and weights can also range from 0 to 30. 
@@ -69,7 +71,7 @@ def evolution(population):
     """Models the reproduction process. As genes breed new genes are created. These new genes derive half their data from their mother and half from 
     their father, which is then modified by any mutations that may or may not take place."""
     p_likelihood = 0.2
-    #This variable determines the parent's availability for reproduction.
+    #This variable determines the parent's gene availability for reproduction.
 
     mutation_probability = 0.08
     #This variable represents the likelihood for mutation to occur for every instance of breeding.
