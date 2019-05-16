@@ -1,6 +1,9 @@
 import random as r
 import csv
 
+"""Created by Liam Brew, Walter Magiera and Jocelyn Ragukonis on May 4th, 2019 for EN-250 Quantitative Biology.
+   Uses a modified version of Edmilson Robson's method found on his GitHub profile."""
+
 class Gene:
     """This class represents a template for all genes. Every gene has a fitness and weight value. The fitness value determines how adept the gene is in surviving
     its environment. The weight value determines how much environmental carrying capacity (the space of the knapsack) that the gene takes up."""
@@ -17,7 +20,7 @@ ENVIRONMENT_CAPACITY = 10*len(GENES)
 POP_SIZE = 10
 #This variable represents the size of each generation's population. Each gene gets assigned a randomized binary ID
 
-MAXIMUM_GENERATION = 250
+MAXIMUM_GENERATION = 100
 #This variable represents the total number of generations that will be modeled. *NOTE* Excel caps out graphing at a max of 250 generations.
 #For more possibilities and better alternative graphings please use MATLAB.
 
@@ -73,7 +76,7 @@ def evolution(population):
     p_likelihood = 0.2
     #This variable determines the parent's gene availability for reproduction.
 
-    mutation_probability = 0.08
+    mutation_probability = 0.2
     #This variable represents the likelihood for mutation to occur for every instance of breeding.
 
     parent_lottery = 0.05
@@ -121,7 +124,7 @@ def main():
             pop = sorted(pop, key=lambda x: fitness(x), reverse=True)
             total = 0
             for i in pop:        
-                print(f"{str(i)}, fit: {fitness(i)}") 
+                print(f"{str(i)}, Fitness: {fitness(i)}") 
                 total += fitness(i)
             avg = total / len(pop)
             lines.append([init_gen, avg])
