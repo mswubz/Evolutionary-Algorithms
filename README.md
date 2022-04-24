@@ -14,7 +14,9 @@ Evolutionary algorithms, optimization methods developed during the 1960s, are in
 - Uses genetic operators, including mutation, selection, and crossover
 - Beneficial in situations where optimization is non-linear
 
-<img src="README.assets/Genetic-Algorithms.png" alt="Genetic-Algorithms" style="zoom:67%;" />
+<img src="README.assets/Genetic-Algorithms.png" alt="Genetic-Algorithms" style="zoom: 33%;" />
+
+---
 
 ## Evolutionary Programming
 
@@ -23,7 +25,9 @@ Evolutionary algorithms, optimization methods developed during the 1960s, are in
 - Primarily relies on mutation as its primary genetic operator
 - Puts more significance on the behavior of both the parent and the offspring 
 
-<img src="README.assets/Evolutionary-Programming.png" alt="Evolutionary-Programming" style="zoom:67%;" />
+<img src="README.assets/Evolutionary-Programming.png" alt="Evolutionary-Programming" style="zoom: 33%;" />
+
+---
 
 ## Evolution Strategies
 
@@ -48,13 +52,17 @@ Evolutionary algorithms, optimization methods developed during the 1960s, are in
 
 - Survival and reproduction 
 
+---
+
 ## Model Derivation 
 
 - Darwin's theory of evolution 
 - Gene selection theory 
 - Random mutation for diversity
 
-<img src="README.assets/EN250-Model-Derivation.png" alt="EN250-Model-Derivation" style="zoom: 50%;" />
+<img src="README.assets/EN250-Model-Derivation.png" alt="EN250-Model-Derivation" style="zoom: 33%;" />
+
+---
 
 ## Model Structure
 
