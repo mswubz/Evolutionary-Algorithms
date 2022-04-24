@@ -14,7 +14,7 @@ Evolutionary algorithms, optimization methods developed during the 1960s, are in
 - Uses genetic operators, including mutation, selection, and crossover
 - Beneficial in situations where optimization is non-linear
 
-<img src="/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/Genetic-Algorithms.png" alt="Genetic-Algorithms" style="zoom:67%;" />
+<img src="README.assets/Genetic-Algorithms.png" alt="Genetic-Algorithms" style="zoom:67%;" />
 
 ## Evolutionary Programming
 
@@ -23,7 +23,7 @@ Evolutionary algorithms, optimization methods developed during the 1960s, are in
 - Primarily relies on mutation as its primary genetic operator
 - Puts more significance on the behavior of both the parent and the offspring 
 
-<img src="/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/Evolutionary-Programming.png" alt="Evolutionary-Programming" style="zoom:67%;" />
+<img src="README.assets/Evolutionary-Programming.png" alt="Evolutionary-Programming" style="zoom:67%;" />
 
 ## Evolution Strategies
 
@@ -54,7 +54,7 @@ Evolutionary algorithms, optimization methods developed during the 1960s, are in
 - Gene selection theory 
 - Random mutation for diversity
 
-<img src="/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/EN250-Model-Derivation.png" alt="EN250-Model-Derivation" style="zoom: 50%;" />
+<img src="README.assets/EN250-Model-Derivation.png" alt="EN250-Model-Derivation" style="zoom: 50%;" />
 
 ## Model Structure
 
@@ -93,11 +93,11 @@ Evolutionary algorithms, optimization methods developed during the 1960s, are in
 
 -  Mutation allows diversity in a system, creating better and stronger genes
 
-![EN250-Gene-Selection-Theory](/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/EN250-Gene-Selection-Theory.png)
+![EN250-Gene-Selection-Theory](README.assets/EN250-Gene-Selection-Theory.png)
 
 ### Model Structure
 
-![EN250-Model-Structure](/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/EN250-Model-Structure.png)
+![EN250-Model-Structure](README.assets/EN250-Model-Structure.png)
 
 ## Applications
 
@@ -126,11 +126,11 @@ Evolutionary algorithms, optimization methods developed during the 1960s, are in
 
   - Also easier and cheaper to design, manufacture, and improve minimalistic systems
 
-  <img src="/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/EN250-Engineering-Application.png" alt="EN250-Engineering-Application" style="zoom:33%;" />
+  <img src="README.assets/EN250-Engineering-Application.png" alt="EN250-Engineering-Application" style="zoom:33%;" />
 
   ## Model Overview
 
-  ![EN250-Model](/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/EN250-Model.png)
+  ![EN250-Model](README.assets/EN250-Model.png)
 
 Optimize the function
 $$
@@ -158,15 +158,15 @@ $$
 
 ### Results
 
-![EN250-Model-Results](/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/EN250-Model-Results.png)
+![EN250-Model-Results](README.assets/EN250-Model-Results.png)
 
 ### Mutation Manipulation
 
-<img src="/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/EN250-Mutation-Manipulation.png" alt="EN250-Mutation-Manipulation"  />
+<img src="README.assets/EN250-Mutation-Manipulation.png" alt="EN250-Mutation-Manipulation"  />
 
 ### Sample Size Manipulation
 
-![EN250-Sample-Size-Manipulation](/Users/jocelynragukonis/Documents/GitHub/EN250/README.assets/EN250-Sample-Size-Manipulation.png)
+![EN250-Sample-Size-Manipulation](README.assets/EN250-Sample-Size-Manipulation.png)
 
 ## Conclusion 
 
