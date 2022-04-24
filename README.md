@@ -1,6 +1,7 @@
 # Evolutionary Algorithms
 
 Liam Brew, Walter Magiera, Jocelyn Ragukonis 
+May 2019
 
 ---
 
